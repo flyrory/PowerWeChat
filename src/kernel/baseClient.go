@@ -15,10 +15,10 @@ import (
 	contract2 "github.com/ArtisanCloud/PowerLibs/v3/logger/contract"
 	"github.com/ArtisanCloud/PowerLibs/v3/object"
 	"github.com/ArtisanCloud/PowerLibs/v3/os"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel/power"
-	request2 "github.com/ArtisanCloud/PowerWeChat/v3/src/kernel/request"
-	response2 "github.com/ArtisanCloud/PowerWeChat/v3/src/kernel/response"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel/support"
+	"github.com/flyrory/PowerWeChat/v3/src/kernel/power"
+	request2 "github.com/flyrory/PowerWeChat/v3/src/kernel/request"
+	response2 "github.com/flyrory/PowerWeChat/v3/src/kernel/response"
+	"github.com/flyrory/PowerWeChat/v3/src/kernel/support"
 )
 
 type BaseClient struct {

@@ -3,9 +3,9 @@ package jssdk
 import (
 	"context"
 	"github.com/ArtisanCloud/PowerLibs/v3/object"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/basicService/jssdk"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel"
-	response2 "github.com/ArtisanCloud/PowerWeChat/v3/src/work/jssdk/response"
+	"github.com/flyrory/PowerWeChat/v3/src/basicService/jssdk"
+	"github.com/flyrory/PowerWeChat/v3/src/kernel"
+	response2 "github.com/flyrory/PowerWeChat/v3/src/work/jssdk/response"
 )
 
 type Client struct {

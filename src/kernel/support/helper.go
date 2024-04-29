@@ -6,7 +6,7 @@ import (
 	"crypto/sha256"
 	"encoding/hex"
 	"fmt"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel/power"
+	"github.com/flyrory/PowerWeChat/v3/src/kernel/power"
 	"reflect"
 	"sort"
 	"strings"

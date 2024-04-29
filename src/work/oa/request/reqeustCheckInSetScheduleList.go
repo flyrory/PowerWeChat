@@ -1,6 +1,6 @@
 package request
 
-import "github.com/ArtisanCloud/PowerWeChat/v3/src/kernel/power"
+import "github.com/flyrory/PowerWeChat/v3/src/kernel/power"
 
 type RequestCheckInSetScheduleList struct {
 	GroupID   int              `json:"groupid"`

@@ -9,10 +9,10 @@ import (
 	"net/http"
 
 	"github.com/ArtisanCloud/PowerLibs/v3/object"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel"
-	response2 "github.com/ArtisanCloud/PowerWeChat/v3/src/openPlatform/response"
-	openplatform "github.com/ArtisanCloud/PowerWeChat/v3/src/openPlatform/server/callbacks"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/openPlatform/server/handlers"
+	"github.com/flyrory/PowerWeChat/v3/src/kernel"
+	response2 "github.com/flyrory/PowerWeChat/v3/src/openPlatform/response"
+	openplatform "github.com/flyrory/PowerWeChat/v3/src/openPlatform/server/callbacks"
+	"github.com/flyrory/PowerWeChat/v3/src/openPlatform/server/handlers"
 )
 
 const EVENT_AUTHORIZED int = 12000              // "authorized"

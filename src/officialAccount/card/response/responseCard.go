@@ -1,8 +1,8 @@
 package response
 
 import (
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel/response"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/officialAccount/card/request"
+	"github.com/flyrory/PowerWeChat/v3/src/kernel/response"
+	"github.com/flyrory/PowerWeChat/v3/src/officialAccount/card/request"
 )
 
 type ResponseCardCreate struct {

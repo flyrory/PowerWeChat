@@ -1,6 +1,6 @@
 package response
 
-import "github.com/ArtisanCloud/PowerWeChat/v3/src/kernel/response"
+import "github.com/flyrory/PowerWeChat/v3/src/kernel/response"
 
 type ResponseAddMessageTemplate struct {
 	response.ResponseWork

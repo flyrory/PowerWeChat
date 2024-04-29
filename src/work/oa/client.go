@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 	"github.com/ArtisanCloud/PowerLibs/v3/object"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel/power"
-	response2 "github.com/ArtisanCloud/PowerWeChat/v3/src/kernel/response"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/work/oa/request"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/work/oa/response"
+	"github.com/flyrory/PowerWeChat/v3/src/kernel"
+	"github.com/flyrory/PowerWeChat/v3/src/kernel/power"
+	response2 "github.com/flyrory/PowerWeChat/v3/src/kernel/response"
+	"github.com/flyrory/PowerWeChat/v3/src/work/oa/request"
+	"github.com/flyrory/PowerWeChat/v3/src/work/oa/response"
 )
 
 type Client struct {

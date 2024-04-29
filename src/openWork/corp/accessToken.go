@@ -8,8 +8,8 @@ import (
 
 	"github.com/ArtisanCloud/PowerLibs/v3/object"
 	"github.com/ArtisanCloud/PowerLibs/v3/security"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel"
-	suit "github.com/ArtisanCloud/PowerWeChat/v3/src/openWork/suitAuth"
+	"github.com/flyrory/PowerWeChat/v3/src/kernel"
+	suit "github.com/flyrory/PowerWeChat/v3/src/openWork/suitAuth"
 )
 
 type AccessToken struct {

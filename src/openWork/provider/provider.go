@@ -1,6 +1,6 @@
 package provider
 
-import "github.com/ArtisanCloud/PowerWeChat/v3/src/kernel"
+import "github.com/flyrory/PowerWeChat/v3/src/kernel"
 
 func RegisterProvider(app kernel.ApplicationInterface) (*Client, *AccessToken, error) {
 	client, err := NewClient(app)

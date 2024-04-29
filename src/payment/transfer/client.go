@@ -6,10 +6,10 @@ import (
 	"encoding/base64"
 	"github.com/ArtisanCloud/PowerLibs/v3/object"
 	"github.com/ArtisanCloud/PowerLibs/v3/security/sign"
-	response2 "github.com/ArtisanCloud/PowerWeChat/v3/src/kernel/response"
-	payment "github.com/ArtisanCloud/PowerWeChat/v3/src/payment/kernel"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/payment/transfer/request"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/payment/transfer/response"
+	response2 "github.com/flyrory/PowerWeChat/v3/src/kernel/response"
+	payment "github.com/flyrory/PowerWeChat/v3/src/payment/kernel"
+	"github.com/flyrory/PowerWeChat/v3/src/payment/transfer/request"
+	"github.com/flyrory/PowerWeChat/v3/src/payment/transfer/response"
 	"net/http"
 )
 

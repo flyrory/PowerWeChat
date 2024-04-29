@@ -3,10 +3,10 @@ package card
 import (
 	"context"
 	"github.com/ArtisanCloud/PowerLibs/v3/object"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel"
-	response2 "github.com/ArtisanCloud/PowerWeChat/v3/src/kernel/response"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/officialAccount/card/request"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/officialAccount/card/response"
+	"github.com/flyrory/PowerWeChat/v3/src/kernel"
+	response2 "github.com/flyrory/PowerWeChat/v3/src/kernel/response"
+	"github.com/flyrory/PowerWeChat/v3/src/officialAccount/card/request"
+	"github.com/flyrory/PowerWeChat/v3/src/officialAccount/card/response"
 	"strings"
 )
 

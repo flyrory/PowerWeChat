@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 	"github.com/ArtisanCloud/PowerLibs/v3/object"
-	payment "github.com/ArtisanCloud/PowerWeChat/v3/src/payment/kernel"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/payment/payScore/request"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/payment/payScore/response"
+	payment "github.com/flyrory/PowerWeChat/v3/src/payment/kernel"
+	"github.com/flyrory/PowerWeChat/v3/src/payment/payScore/request"
+	"github.com/flyrory/PowerWeChat/v3/src/payment/payScore/response"
 	"net/http"
 )
 

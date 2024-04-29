@@ -1,4 +1,4 @@
-module github.com/ArtisanCloud/PowerWeChat/v3
+module github.com/flyrory/PowerWeChat/v3
 
 go 1.17
 

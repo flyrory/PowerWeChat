@@ -3,9 +3,9 @@ package merchantService
 import (
 	"context"
 	"github.com/ArtisanCloud/PowerLibs/v3/object"
-	payment "github.com/ArtisanCloud/PowerWeChat/v3/src/payment/kernel"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/payment/merchantService/request"
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/payment/merchantService/response"
+	payment "github.com/flyrory/PowerWeChat/v3/src/payment/kernel"
+	"github.com/flyrory/PowerWeChat/v3/src/payment/merchantService/request"
+	"github.com/flyrory/PowerWeChat/v3/src/payment/merchantService/response"
 	"net/http"
 )
 

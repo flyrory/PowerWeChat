@@ -1,7 +1,7 @@
 package featureUnit
 
 import (
-	"github.com/ArtisanCloud/PowerWeChat/v3/src/kernel/power"
+	"github.com/flyrory/PowerWeChat/v3/src/kernel/power"
 	"testing"
 )
 
