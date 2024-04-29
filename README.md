@@ -1,5 +1,7 @@
 # PowerWeChat SDK
 
+### [作者在这里](https://github.com/ArtisanCloud/PowerWeChat)  实在是等不到作者更新接口，所以自己clone了一份
+
 [![Go Build](https://github.com/ArtisanCloud/PowerWeChat/actions/workflows/go-build.yml/badge.svg?branch=release%2F2.0.0)](https://github.com/ArtisanCloud/PowerWeChat/actions/workflows/go-build.yml)
 [![Go Test](https://github.com/ArtisanCloud/PowerWeChat/actions/workflows/go-test.yml/badge.svg?branch=release%2F2.0.0)](https://github.com/ArtisanCloud/PowerWeChat/actions/workflows/go-test.yml)
 

@@ -36,3 +36,27 @@ func (comp *Client) Complaints(ctx context.Context, params *request.RequestCompl
 
 	return result, err
 }
+
+// 查询投诉单详情
+// https://pay.weixin.qq.com/docs/merchant/apis/consumer-complaint/complaints/list-complaints-v2.html
+func (comp *Client) ComplaintInfo(ctx context.Context, params *request.RequestComplaintInfo) (*response.ResponseComplaintInfo, error) {
+
+	result := &response.ResponseComplaintInfo{}
+
+	endpoint := "/v3/merchant-service/complaints-v2/" + params.ComplaintId
+	_, err := comp.Request(ctx, endpoint, nil, http.MethodGet, &object.HashMap{}, false, nil, result)
+
+	return result, err
+}
+
+// 查询投诉单详情
+// https://pay.weixin.qq.com/docs/merchant/apis/consumer-complaint/complaints/list-complaints-v2.html
+func (comp *Client) ComplaintHistory(ctx context.Context, params *request.RequestComplaintHistory) (*response.ResponseComplaintHistory, error) {
+
+	result := &response.ResponseComplaintHistory{}
+
+	endpoint := "/v3/merchant-service/complaints-v2/" + params.ComplaintId + "/negotiation-historys"
+	_, err := comp.Request(ctx, endpoint, nil, http.MethodGet, &object.HashMap{}, false, nil, result)
+
+	return result, err
+}

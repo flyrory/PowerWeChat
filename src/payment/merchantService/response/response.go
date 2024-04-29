@@ -9,7 +9,7 @@ type ReturnAddressInfo struct {
 }
 
 type SharePowerInfo struct {
-	ReturnTime        time.Time         `json:"return_time"`
+	ReturnTime        string            `json:"return_time"`
 	ReturnAddressInfo ReturnAddressInfo `json:"return_address_info"`
 }
 
@@ -59,4 +59,40 @@ type ResponseComplaints struct {
 	Limit      int    `json:"limit"`
 	Offset     int    `json:"offset"`
 	TotalCount int    `json:"total_count"`
+}
+
+type ResponseComplaintInfo struct {
+	ComplaintId           string               `json:"complaint_id"`
+	ComplaintTime         time.Time            `json:"complaint_time"`
+	ComplaintDetail       string               `json:"complaint_detail"`
+	ComplaintState        string               `json:"complaint_state"`
+	PayerPhone            string               `json:"payer_phone"`
+	ComplaintOrderInfo    []ComplainOrderInfo  `json:"complaint_order_info"`
+	ComplaintFullRefunded bool                 `json:"complaint_full_refunded"`
+	IncomingUserResponse  bool                 `json:"incoming_user_response"`
+	UserComplaintTimes    int                  `json:"user_complaint_times"`
+	ComplaintMediaList    []ComplaintMediaList `json:"complaint_media_list"`
+	ProblemDescription    string               `json:"problem_description"`
+	ProblemType           string               `json:"problem_type"`
+	ApplyRefundAmount     int                  `json:"apply_refund_amount"`
+	UserTagList           []string             `json:"user_tag_list"`
+	ServiceOrderInfo      []ServiceOrderInfo   `json:"service_order_info"`
+	AdditionalInfo        AdditionalInfo       `json:"additional_info"`
+}
+
+type ResponseComplaintHistoryData struct {
+	LogId              string               `json:"log_id"`
+	Operator           string               `json:"operator"`
+	OperateTime        time.Time            `json:"operate_time"`
+	OperateType        string               `json:"operate_type"`
+	OperateDetails     string               `json:"operate_details"`
+	ImageList          []string             `json:"image_list"`
+	ComplaintMediaList []ComplaintMediaList `json:"complaint_media_list"`
+}
+
+type ResponseComplaintHistory struct {
+	Data       []ResponseComplaintHistoryData `json:"data"`
+	Limit      int                            `json:"limit"`
+	Offset     int                            `json:"offset"`
+	TotalCount int                            `json:"total_count"`
 }
