@@ -81,13 +81,13 @@ type ResponseComplaintInfo struct {
 }
 
 type ResponseComplaintHistoryData struct {
-	LogId              string               `json:"log_id"`
-	Operator           string               `json:"operator"`
-	OperateTime        time.Time            `json:"operate_time"`
-	OperateType        string               `json:"operate_type"`
-	OperateDetails     string               `json:"operate_details"`
-	ImageList          []string             `json:"image_list"`
-	ComplaintMediaList []ComplaintMediaList `json:"complaint_media_list,omitempty"`
+	LogId          string    `json:"log_id"`
+	Operator       string    `json:"operator"`
+	OperateTime    time.Time `json:"operate_time"`
+	OperateType    string    `json:"operate_type"`
+	OperateDetails string    `json:"operate_details"`
+	ImageList      []string  `json:"image_list"`
+	//ComplaintMediaList []ComplaintMediaList `json:"complaint_media_list,omitempty"`
 }
 
 type ResponseComplaintHistory struct {
