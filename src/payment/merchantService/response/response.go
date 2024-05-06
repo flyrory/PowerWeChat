@@ -87,7 +87,7 @@ type ResponseComplaintHistoryData struct {
 	OperateType        string               `json:"operate_type"`
 	OperateDetails     string               `json:"operate_details"`
 	ImageList          []string             `json:"image_list"`
-	ComplaintMediaList []ComplaintMediaList `json:"complaint_media_list"`
+	ComplaintMediaList []ComplaintMediaList `json:"complaint_media_list,omitempty"`
 }
 
 type ResponseComplaintHistory struct {
